@@ -30,3 +30,75 @@
 *.exe
 *.out
 *.app
+
+# ----------------------
+# General OS Clutter
+# ----------------------
+.DS_Store
+Thumbs.db
+*.bak
+*.swp
+*.tmp
+
+# ----------------------
+# FreeCAD
+# ----------------------
+*.FCBak
+*.pyc
+*.py~
+
+# Optional: ignore autosaved temp files
+*.Autorecovery.FCStd
+*.FCStd1  # older versions
+*.FCStd2
+*.FCStd~
+
+# ----------------------
+# KiCad (v6+)
+# ----------------------
+# Backup & autosave
+*.bak
+*.tmp
+*.kicad_prl
+*.kicad_sch-bak
+*-save.kicad_sch
+*-save.kicad_pcb
+
+# Project-specific extras
+*.dcm
+*.net
+*.xml
+*.lib
+*.cache
+fp-info-cache
+sym-lib-table-bak
+*.zip
+
+# 3D Viewer / builds
+3d/
+*.wrl
+*.step
+*.stp
+
+# Export folders (optional)
+gerber/
+outputs/
+plots/
+reports/
+
+# BOMs & temp files
+*.csv
+*.tsv
+*.html
+
+# ----------------------
+# Python (if using scripts)
+__pycache__/
+*.pyc
+
+# ----------------------
+# Logs or generated
+*.log
+*.bak
+*.orig
+

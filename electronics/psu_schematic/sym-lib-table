@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "LM2596_Module_4Pin")(type "KiCad")(uri "/home/alex/electronics_projects/LabPSU-Mini/electronics/LM2596_Module_4Pin.kicad_sym")(options "")(descr ""))
+)
