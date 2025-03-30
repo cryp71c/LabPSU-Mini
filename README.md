@@ -27,6 +27,12 @@ A modular, 3-voltage desktop power supply (9V / 5V / 3.3V) with:
 - [ ] Add OLED display for voltage/temp readout
 - [ ] Mount microcontroller inside
 
+### Initial Baseplate Images
+
+This will eventually have dovetails drawn, and a ventalation hole (the 120mm square hole), ill probably cut it down a lot so the fan can screw in.
+
+![Base Plate Initial](images/initial_base_plate_design.jpg)
+
 ---
 
 ## 📐 Folder Structure
