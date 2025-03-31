@@ -4,7 +4,7 @@ Modular desktop power supply with selectable voltage rails and microcontroller m
 # Desktop PSU Project 🔌🧠
 
 A modular, 3-voltage desktop power supply (9V / 5V / 3.3V) with:
-- LM2596 buck converters
+- LM2596-ADJ 4pin buck converters
 - Arduino Nano for temperature monitoring
 - Rotary voltage selector
 - Active cooling + heatsinks
@@ -21,17 +21,25 @@ A modular, 3-voltage desktop power supply (9V / 5V / 3.3V) with:
 ---
 
 ## 🧱 Build Log
-- [ ] Designed Enclosure for electronic components in FreeCad
+
+### Enclosure
+- [X] Designed Baseplate with vent for 120mm fan.
 - [ ] Designed buck converter brackets in FreeCAD
+
+### Electronics
 - [ ] Created front panel layout (voltage oled and rotary switch)
 - [ ] Add OLED display for voltage/temp readout
 - [ ] Mount microcontroller inside
+
+### Software
+- [ ] Create voltage and temprature readout lcd software with arduino nano
 
 ### Initial Baseplate Images
 
 This will eventually have dovetails drawn, and a ventalation hole (the 120mm square hole), ill probably cut it down a lot so the fan can screw in.
 
 ![Base Plate Initial](images/initial_base_plate_design.jpg)
+![Final Plate Design](images/Vented_Base_Plate-Body.pdf)
 
 ---
 
